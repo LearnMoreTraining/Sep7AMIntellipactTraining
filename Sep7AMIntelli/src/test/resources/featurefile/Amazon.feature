@@ -1,11 +1,15 @@
 Feature: Amazon Validation
 
-  @AmazonSearch @RegessionTest
+  @AmazonSearch @RegessionTest @common
     #Before Hooks
   Scenario: Search functionality of amazon
+    #beforestep
     Given user enter the "iphone" and click search icon
+    #afterstep
+    #beforestep
     Then Validate the title of page
-
+    #afterstep
+  #after
     @multi
   Scenario Outline: Multi validation
     Given user enter the "<product name>" and click search icon
@@ -23,7 +27,7 @@ Feature: Amazon Validation
   Scenario: handle the static dropdown
     Given user selects the value from the category dropdown
 
-@mouseaction
+@mouseaction  @common
   Scenario: Handle the mouse actions
     Given user clicks the babywishlist
 
