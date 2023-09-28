@@ -1,0 +1,991 @@
+
+
+Testing : 
+
+Requirment --> client - Stake holders - > BA (Business Analyst)
+
+Dev
+QA - Quality Analyst / QE - Quality Engineering - Testers 
+
+
+Finding the bug
+
+1.Chat		
+		offline - single Tick 
+		Online - Double Tick   -> Testing -> new code  -> old code - 3 RT
+		Read - blue tick 
+2.Status 		
+		No of Seen 
+		24 hours   --> new code  - 2 T
+		30S
+3.Calls  - 2RT
+4.Group chat  -> 
+
+Functionality of application 
+
+1. Manual Testing / Functional Testing - Physical validation 
+
+100 Regression Test 
+
+2. Automation Testing - scripts - coding 
+
+	Important functionaity of an application 
+	
+	Regression Testing -> To ensure there is no code breakage due to introduction of new code
+
+
+Java , Selenium , Framework 
+
+
+Duration (Sprint 1) : 2 to 3 weeks --> Task (User Stories ) - 7 User stories 
+
+Requirment : 100 Tasks (100 User stories )
+
+Sprint 2 : 10 User stories 
+
+Sprint 3 : 5 US - In Track Testing 
+
+Intergrated Training: 
+
+BDD 
+
+Intellji 
+Cucumber BDD - Test Design - Test Scripting
+CICD - Jenkins 
+Git
+Maven Project 
+
+1. InTrack Automation
+2. Backlog Automation
+
+Selenium : 
+
+Web page Automation Tool 
+
+Freeware / Open Source 
+
+1. Mutliple Browser 
+
+		Cross Browser Testing 
+		
+		Chrome , Edge , FireFox , Safari , Opera 
+		
+		Parallel Execution : Selenium Grid 
+
+2. Multiple  Programing language :
+
+	Java , Python , JS , C# , Ruby 
+
+3. Multiple Operating system : 
+
+		Windows , mac , Linux 
+		
+Coding : Java 
+
+IDE -> Intergrated Development Environment -
+Intellji , Eclipse , Pycharm , Visual Studio code 
+
+cmd : java -version 
+
+Latest version version 
+
+https://www.oracle.com/in/java/technologies/downloads/#jdk20-windows
+
+https://www.jetbrains.com/idea/download/?section=windows
+
+Git Repository :  Git account 
+
+https://github.com/
+
+Git Desktop 
+
+https://desktop.github.com/
+
+Maven : 
+
+https://maven.apache.org/download.cgi
+
+64 bit , 4GB , Win 10 , 11
+
+
+Game : ---> java 
+
+Environment variables
+
+Home --> location of java 
+Bin --> 
+
+java -verion 
+mvn -version 
+where java --> location 
+
+
+IDE --> Coding (Java ) --> Project (Maven)
+
+Workspace : local (our system)
+
+src --> source folder (coding )
+
+
+1. Maven provides proper folder structure 
+
+src/main/java
+src/main/resources 
+src/test/java ---> Automation Coding 
+src/test/resources 
+
+Project --> package --> class --> method -->coding 
+
+Coding Standard : 
+
+1.Naming Conversion 
+
+package - lower case  - mynameisaravinth
+class - pascal case - MyNameIsAravinth
+method name - camel case - myNameIsAravinth - iPhone - main
+
+Keywords of Java 
+
+psvm 
+ 
+pom.xml   --> Heart of the Maven   
+
+java is case sensetive lanaguage 
+
+a A - ASCII value
+
+Data types of java : 
+
+1  --> int 
+4.5 -> double
+% a -> char - ''
+aravinth -> String - ""
+
+DataType variableName (camel case) = value ;
+
+int firstNumber = 1 ;
+
+variable holds the value 
+
+sout 
+
+java program will execute only if the main method is present 
+
+
+Human readable form ---> machine readable form (Binary - 0 , 1)
+
+JVM : Java Virtual Machine 
+
+1. Load 
+2. Verify - main 
+3. Execute 
+
+JRE - Java Runtime Environment 
+		
+		Suppotive files 
+		
+JDK - Java Development Kit 
+
+Opertors : + - * / ==  !=
+
+
+Jar Files --> selenium Jar files (manually )
+
+Maven : Build Managment tool / Project Managment tool 
+
+Dependency --> Selenium Dependency
+
+pom.xml --> heart of the maven 
+
+html structure 
+
+<>  - open tag 
+</>  - close tag 
+
+<aravinth>    </aravinth>
+<apple>
+
+<J>   </J>
+
+</apple>
+
+<dependencies>
+
+MVN Repository(Global Repo)   to local Repository (our system)
+
+https://mvnrepository.com/
+
+
+Webpage : 
+
+1. Frontend - UI - User Interface 
+2. Backend  - DOM  -> Document Object Model 
+
+		html  - <> </>
+
+F12 
+
+Node :  Tag and Elements (Group of Element - attribute and attribute value ) 
+
+<input - tag  class="input r4 wide mb16 mt8 password" type="password" id="password" 
+name="pw" aria-describedby="error" 
+aria-required="true" onkeypress="checkCaps(event)" autocomplete="off">
+
+
+With the help of Element  -> Selenium 
+
+Locators : 
+
+1. ID 
+2. Name 
+3. Class Name 
+4. Xpath 
+5. Css Selector 
+6. Tag name 
+7. Link Text 
+8. Partial Link Text 
+
+Components of Selenium : Version 
+
+1. Selenium IDE 
+2. Selenium WebDriver 
+3. Selenium Grid 
+
+Selenium IDE : 
+
+In line command Runner 
+
+chrome and firefox  --> Extension 
+
+Record and play back testing 
+
+code customization 
+
+Selenium WebDriver : Multiple Browser 
+
+Allocate memory --> Object  --> new
+
+Aravinth a = new Aravinth();
+Pen p = new Pen();
+
+
+WebDriver driver = new WebDriver();
+
+
+Interface : Abstraction 
+
+Sim port as interface 
+
+Airtel , Jio , VI , BSNL 
+
+airtel()
+jio()
+vi()
+bsnl()
+
+
+Methods are declared inside the interface , When needed we will defining those interface 
+
+size  --> memory 
+cost   -> maintance 
+
+We can't create object for an interface 
+
+
+code----http protocol---WebDriver----http protocol----> browser 
+
+ChromeDriver 
+EdgeDriver 
+SafariDriver
+
+Browser Invocation  --> Help of Interface (WebDriver)
+
+1. URL 
+
+		get()
+		navigate()  -> launch , refresh , forward , backward 
+		
+		
+		m1(String a) --> string input 
+		m1(int a) 
+		m1()
+		
+Exception in thread  -> 
+
+org.openqa.selenium.InvalidArgumentException: invalid argument
+
+input --> sendKeys()
+click --> click()
+extract the text --> getText() 
+
+
+DOM --> element
+
+findElement() --> 
+
+Locators : By class ( class contains method)
+
+1. ID  --> looks for the id attribute  -> id()
+2. Name  -> looks for the name attribute  -> name()
+
+org.openqa.selenium.NoSuchElementException:
+ no such element: Unable to locate element:
+ {"method":"css selector","selector":"#aravinth"}
+  (Session info: chrome=116.0.5845.142)
+  
+  Locators : 
+
+1. ID -> looks for id attribute
+2. Name -> looks for name attribute  
+
+4. Xpath --> looks for all attribute 
+
+3. Class Name --> looks for class 
+5. Css Selector 
+6. Tag name   --> 
+7. Link Text 
+8. Partial Link Text 
+  
+  
+Xpath --> we are going to find all elements 
+
+1.Absolute Xpath : / 
+
+Travers from head to tail 
+
+<html>
+	<head>   </head>
+	<body>  
+		<a>
+		<b>
+		<j>
+		<c>  --> action 
+		<d>		
+	</body>
+
+</html>
+
+/html/head/body/a/b/c
+
+Leds to code breakage 
+
+
+/html/body/div[1]/div[1]/div/new/div/div[2]/div[3]/form/div[1]/div/input[1]
+
+
+2. Relative Xpath : // 
+
+//tagname[@attribute='value']
+
+//input[@type='email']
+
+Attribute value should be unique 
+
+//input[@id='username']
+
+Amzon --> agent 
+
+//input[@id='twotabsearchtextbox']
+
+findElement --> always select the first matching result. 
+
+Regular expession of xpath 
+
+
+Framework :  Execution System 
+
+100 + Scenarios  --> To run and maintain our code 
+
+1. Maven Project 
+
+Junit , TestNG  --> TDD - Test Data Driven - raw code 
+
+Manual Tester , BA , Scrum Master 
+
+Cucumber BDD 
+
+BDD -> Behaviour Driven Development 
+
+Test Design : Gherkin Language (Plain English) 
+
+Given  -> pre req
+When -> user action 
+Then -> validation 
+And ->
+
+3 Important File : 
+
+1. Feature File --> Test Design 
+2. Step Defination file --> Automation Coding 
+3. Runner File --> Execution 
+
+plugin -> cucumber 
+
+
+src/main/java
+src/main/resources 
+src/test/java ---> Automation Coding  - Step Defination file ,  Runner File 
+src/test/resources  -> supportive files which are required for test/java  - Feature File
+
+ Feature File --> Test Design 
+ .feature 
+
+Annotations : @
+
+Given -> @Given 
+When -> @When 
+Then -> @Then 
+And -> @And 
+
+@Given("statment")
+public void methodName(){
+
+}
+
+@Given("user navigates to salesforce login page")
+
+@RunWith()  --> run the program 
+
+@CucumberOptions  --> map the feature file and step defination file 
+
+features 
+glue 
+
+cntrl + Space 
+
+UndefinedStepException
+
+
+Resuable files 
+Page Objects 
+
+
+static method -> without creating object --> ClassName.methodName -> accepts only static data
+non static --> By creating an object for the respective class --> accepts both static and non static data
+
+Inheritance : knowledge of one class in another class 
+
+inherting the property of one class to another class 
+
+extends 
+
+
+ClassA  ->protected driver
+ClassC  extends ClassA
+classB
+ClassB extends ClassA -> single inheritance
+ClassB extends ClassA, ClassC   --> multiple inheritance 
+
+Multi level Inheritance: 
+
+classA 
+ClassB extends ClassA   --> multi level inheritance 
+ClassC extends ClassB
+
+
+Access Modifiers : usage of class and methods 
+
+public   -> within same package or outside different package 
+private --> with the class 
+protected --> sub class (inheritance)
+default --> within same package 
+
+hard code -> 
+
+m1(String a)  --> paramatrized method --> argument (input)
+m2()
+
+
+FeatureFile --> 
+StepDefination ( Annotaions -> code Mapping ->resuable --> PageObjects (Inheritance & Access Modifiers)
+-> Runner (tags)
+
+
+pre conditions / Post Conditions --> Hooks 
+
+before start of each and evey scenario 
+@Before() -> pre condition 
+public void setup() {
+
+}
+
+@After() -> post condition
+public void teardown(){
+
+}
+
+conditions : 
+
+if , else if , else , switch 
+
+boolean 
+
+if(condition -> true ){  -> false (skip the current block and execute the next block)
+
+}
+else if(condition){
+
+}
+else if(condition){
+
+}
+else{
+
+}
+
+== equals 
+<
+>
+!=
+
+debug points --> execution will be pause 
+
+equals()
+
+acutal result --> UI
+expected result -> req doc or in US 
+
+Array [] : Used to store multiple values with similar data type
+
+
+int a = 1 ;  //variable holds the value 
+
+int a = {1,4,7,9} ;
+
+
+int [] h = {56 -0 ,78 - 1,90 - 2}
+
+String [] j = {"cc","u"}
+
+index order -> 0 
+
+a[index]
+
+"main" java.lang.ArrayIndexOutOfBoundsException
+
+
+Loops: repative action 
+
+for while do while 
+
+++ increment +1
+-- decrment  -1
+
+for (intilztion  i =0 - 1  , condition  2 < 4 -2 - 5 -8, increment - 4 -7 ){
+
+				3 -6 
+}
+
+
+certain actions in specifc node we need to create web element 
+
+WebDriver  --> find the element in entire dom structure 
+WebElement --> find the element in specifc node 
+
+Restrcting the usage of webdriver 
+
+count the tag - option
+
+findElement  --> first matching result 
+findElements  --> all matching result 
+
+--------------------------------------------------
+15/09 
+
+Dropdown - will contain certain set of values 
+
+1. Static Dropdown  -> select tag --> Select class (contains methods)
+
+selectbyindex
+selectbyvalue  --> value attribute 
+selectbyvisibletext
+
+
+2. Dynamic Dropdown  - Xpathaxis 
+
+
+@Before()
+@BeforClass()
+@BeforeMethod()
+
+@Test()
+
+
+@Test()
+public void extractthetext(){
+
+Mouse Actions :   Actions class 
+
+Actions s = new Actions()
+clickandhold
+doubleclick
+contentclick
+draganddrop 
+
+composit Action --> multiple opeations 
+
+7. Link Text         --> Hyperlinks
+8. Partial Link Text 
+
+a tag --> anchor tag 
+
+Keys.
+
+Xpath axis : Surrounding elements 
+
+<a> --> not unique --> action 
+<b>  --> unique 
+<c>  --> not unique ---> action 
+
+
+1. Parent 
+2. child 
+3. following 
+4. preceding 
+5. following - sibling 
+6. preceding - sibling
+7. ancestor 
+8. descentant 
+
+
+Blood Relation :
+
+Grand Grand Parents 
+Grand parents 
+Parent 
+	child , child  - siblings 
+		child 
+
+open  node  -> towards the bottom 
+close node --> towards the right 
+
+//tagname[@attribute='attribute value']/parent::tagname 
+//tagname[@attribute='attribute value']/child::tagname 
+
+
+//div[@id="username_container"]/child::input[index]
+
+//div[@id='username_container']/child::input[1]
+
+//input[@id='username']/parent::div
+
+//input[@id='username']/parent::div/child::div/parent::div[@id='username_container']
+
+//input[@id='username']/preceding-sibling::div/following-sibling::input[@id='username']
+
+//input[@id='username']/ancestor::div[@id='usernamegroup']/child::label
+
+//input[@id='username']/ancestor::div[@id='usernamegroup']/descendant::div[@id='idcard']
+
+//input[@id='twotabsearchtextbox']/parent::div/parent::div/preceding-sibling::div
+
+//input[@id='twotabsearchtextbox']/parent::div/parent::div/preceding-sibling::div/ancestor::div[@id='nav-search']/child::div
+
+//div[@id='usernamegroup']/following::div[@id='pwcaps']
+
+
+"//div[@id='dropdownGroup1']/descendant::ul["+ulIndex+"]/child::li["+liIndex+"]"
+
+key to value pair 
+
+browser = chrome 
+
+properties ---> Properties 
+
+FileInputSteram --> read the file 
+path --> File class 
+-------------------------------------------
+21/09
+
+Excel :  poi jars 
+
+Workbook       ----> HSSFWorkbook   XSSFWorkbook 
+Sheet          ----> HSSFSheet      XSSFSheet  
+row & column --> String value ---> getStringValue()
+
+xlsx --> XSSFWorkbook
+xls  --> HSSFWorkbook 
+
+Actions --> 
+
+No such Element Exception --> correct attribute and attribute value , frame 
+
+Frame : Specifc Container with independant HTML structure 
+
+switchTo()
+
+tag : frame , iframe
+
+GitHub :  Repository
+
+Local ---> Team -> Git 
+
+Base project : 
+
+pull ---> git to local 
+push --> local to git (commit )
+
+https://github.com/LearnMoreTraining/Sep7AMIntellipactTraining.git
+
+main branch --> base code 
+sub branch --> code change --> reviewed by test lead --> review comments --> 
+merge the code to main branch
+
+------------------------------------------------------------------------------------
+
+Collections : 
+
+
+Interface : Abstraction (won't contain anything)
+
+will have methods but not a body 
+
+It will contain empty method   -> signature 
+
+WebDriver (I)  ---> implementing the interface --> with the help of the class
+
+WebDriver driver = new ChromeDriver();    EdgeDriver()
+
+get()						get()          get()
+
+Every class implements the methods 
+
+
+Collections : Interface 
+
+Array --> to store multiple value of similar data type 
+
+Sized is always fixed 
+
+int a[] = {1,3,5}; // size - 3 
+
+LIST  --> ArrayList  --> allow the user to store duplicate value
+SET --> HashSet
+MAP  --> HashMap --> Key to value pair 
+
+
+List<Data Type> a = new ArrayList<Data type>();
+add()
+
+List always store the value in order fashion --> index 
+
+Set :  Store the values in random fashion - won't allow the duplicate values 
+
+for()
+has next 
+
+tr - row 
+th - column 1 value 
+td - column 2 value 
+
+ey.findElements(By.tagName("th"));
+ey.findElements(By.tagName("th"));
+ey.findElements(By.tagName("th"));
+ey.findElements(By.tagName("th"));
+ey.findElements(By.tagName("th"));
+ey.findElements(By.tagName("th"));
+ey.findElements(By.tagName("th"));
+
+//table[@class='wikitable']//tr/td[4]
+
+
+1. Sepecifc value 
+2. Entrie column  
+3. entire row 
+
+Relative + Relative 
+Relative + absolute 
+
+//tagname[text()='value']
+//label[text()='Username']
+
+Normalized- Space --> removes the reduntant space 
+
+//tagname[normalize-space(text())='value']
+//tagname[normalize-space(@attribute)='value']
+
+//div[normalize-space(text())='space in between']
+
+//div[normalize-space(@Class)='my class 2']
+
+1. Leading space 
+2. Trailing space 
+3. Repeated white space 
+
+Table --> 3 methods 
+
+m1()
+m2()   --> memory will be allocated at the backend 
+m3()
+
+Polymorphism : Create one thing which is going to assist multiple thing 
+
+1. Method Overloading -> Complile Time Polymorphism
+
+		Method name should be same - Data type / no of paramters 
+		
+		Same class
+
+
+2. Method OverRiding --> Run Time Polymorphism
+		
+		Different Class 
+		method name 
+
+
+Assertions   --> Validation 
+Assert
+
+css selector  : light weight 
+
+//tagname[@attribute='value']
+
+tagname[attribute='value']
+input[id='username']
+
+# - id   #username
+. - class 
+.input.r4.wide.mb16.mt8.username
+
+Xpath --> parent to child or parent 
+css : parent - child 
+
+error ==> dedected by the compiler 
+Exception : abnormal flow 
+
+Both frondend & Backend should be Insync --> Timeout exceptions 
+
+try and catch blocks 
+
+try{
+
+}
+catch(type of exception){
+
+}
+catch(ex){
+
+}
+Waits --> 
+
+1. Implicit wait  --> default wait time
+
+	5s TO 7s --> Only Once 
+ 
+2. Explicit wait --> specifc condition 
+
+
+//a[contains(normalize-space(text()),'ency Conv')]
+
+WaitDriverWait --> 
+
+switchTo()
+
+Map --> Key to value pair 
+
+id  Name 
+234  xyz 
+123  abc 
+433  fff
+
+Map <Integer, String> m = new HashMap<Integer, String>();
+put()
+
+Alerts
+confirmation Box 
+prompt
+
+ok    ---> accept()
+cancel --> dismiss()
+input --> sendKeys() 
+validate --> getText()
+
+enable disable  
+
+isEnabled
+isDisplayed
+isSelected 
+
+
+Report 
+
+html , xml , json 
+
+
+http://username:password@siteurl
+
+https://admin:admin@the-internet.herokuapp.com/
+
+
+Constructor :  -> same class name 
+
+1. Present -> Parametrixed const 
+2. Automatically -> Default constructor 
+
+Initilizing the class variable 
+
+invoke duration the object creation 
+
+CICD --> Continous Integration and Continous Development 
+
+Jenkins , Bamboo , azure 
+
+Developy the code --> smoke test --> rvert the change / fix 
+
+Git --> Development -> commit new changes 
+Testing -> triggered 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
