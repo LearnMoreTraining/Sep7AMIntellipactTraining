@@ -3,6 +3,7 @@ package javabasics;
 public class OverRide1 extends OverRide2 {
 
 
+    int a = 100;
     public static void main(String[] args) {
 
         OverRide2 a = new OverRide2();

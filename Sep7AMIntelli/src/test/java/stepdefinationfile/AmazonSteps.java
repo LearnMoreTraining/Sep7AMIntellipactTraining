@@ -23,9 +23,14 @@ import java.util.*;
 
 public class AmazonSteps extends BaseCode {
 
+    AmazonHomePage p;
+    public  AmazonSteps(){
+
+        p = new AmazonHomePage();
+    }
+
     @Given("user navigates to amazon")
     public void naviagteUrl() throws IOException {
-
         BaseCode.launchBrowser();
    }
 

@@ -65,6 +65,14 @@ public class AmazonHomePage extends BaseCode {
       return   driver.findElement(By.xpath("//td[normalize-space(text())='"+text+"']/following-sibling::td")).getText();
     }
 
+    public void m1(){
+
+    }
+
+    public void m2(){
+
+    }
+
 
 
 }
