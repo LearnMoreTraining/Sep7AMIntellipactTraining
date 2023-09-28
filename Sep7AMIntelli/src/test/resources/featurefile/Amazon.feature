@@ -34,3 +34,4 @@ Feature: Amazon Validation
   @draganddrop
  Scenario: Drag and Drop
    Given user drag and drop the box
+    When hello
