@@ -3,7 +3,13 @@
 Testing : Mail : anaravinthh@outlook.com
           Conta : 9677569832
 
-Requirment --> client - Stake holders - > BA (Business Analyst)
+https://learnmoretraininginstitue.atlassian.net/jira/software/c/projects/LMOT/boards/3/backlog
+JIRA Login ID :
+learnmoreinstitute@outlook.com
+
+Password : Learnmoreinstitute
+
+Requirment --> client - Stakeholders - > BA (Business Analyst)
 
 Dev
 QA - Quality Analyst / QE - Quality Engineering - Testers 
